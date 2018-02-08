@@ -12,4 +12,4 @@ active:
     - src/index.js
 
 run:
-    - npm start
+    - ((bouncecode open http://localhost:3000/ -p 3000) &) && npm start
