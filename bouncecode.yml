@@ -7,3 +7,9 @@ install:
 
 information:
     title: React calculator
+
+active:
+    - src/index.js
+
+run:
+    - npm start
