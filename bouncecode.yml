@@ -8,8 +8,8 @@ install:
 information:
     title: React calculator
 
-active:
-    - src/index.js
-
-run:
-    - ((bouncecode open http://localhost:3000/ -p 3000) &) && npm start
+project:
+    active:
+        - src/index.js
+    run:
+        - ((bouncecode open http://localhost:3000/ -p 3000) &) && npm start
